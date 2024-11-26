@@ -1,0 +1,1 @@
+['( S   ( CHUNK  ( PR ( PRP ( PRN ഞാൻ )  )  )  )  ( CHUNK  ( N ( NN ( NP മീനു )  )  )  )  ) ', '( S   ( CHUNK  ( PR ( PRP ( PRN ഞാൻ )  )  )  )  ( CHUNK  ( N ( NN ( N ( LOCATIVE സ്കൂളിൽ )  )  )  )  )  ) ']

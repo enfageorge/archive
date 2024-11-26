@@ -1,0 +1,5 @@
+Text accepted
+Document Tokenised
+Document Chunked
+Morphological Analysis performed
+Pronouns Resolved

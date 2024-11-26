@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>സർവനാമ പരിഹരണം </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='util.css') }}">
+
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action="/result" method="POST">
+				<span class="contact100-form-title">
+					സർവനാമ പരിഹരണം 
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">പരിഹരിക്കാൻ വാക്യം</span>
+					<h2>{{text}}</h2>
+					<br>
+					<span class="label-input100">പരിഹരിക്കണ്ട സർവനാമം നൽകുക</span>
+					<br>
+					<select name="pronoun">
+						{% for pronounPos,value in data.items() %}
+						<option value="{{pronounPos}}">{{value}}</option>
+						{% endfor %}
+					</select>
+					<span class="focus-input100"></span>
+				</div>
+
+				
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							<span>
+								പരിഹരിക്കുക 
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="dropDownSelect1"></div>
+</body>
+</html>

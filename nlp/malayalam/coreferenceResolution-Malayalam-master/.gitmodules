@@ -1,0 +1,4 @@
+[submodule "parsing"]
+	path = parsing
+	url = https://github.com/enfageorge/Malayalam-Shallow-Parser.git
+	branch = changesForCr

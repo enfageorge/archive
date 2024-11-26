@@ -1,0 +1,11 @@
+ഞാൻ	PR__PRP	B-NP
+മീനു	N__NN	B-NP
+ആണ്	V__VM__VF	B-VGF
+.	RD__PUNC	B-BLK
+
+ഞാൻ	PR__PRP	B-NP
+സ്കൂളിൽ	N__NN	B-NP
+പോകുക	V__VM__VINF	B-VGINF
+ആണ്	V__VM__VF	B-VGF
+.	RD__PUNC	B-BLK
+
